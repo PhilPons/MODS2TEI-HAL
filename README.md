@@ -73,6 +73,20 @@ Ainsi:
 * les *booksection*, *conference paper*, *dictionary entry* et *encyclopedia article* sont exportés en TEI-HAL comme des **chapitre d'ouvrage**
 * et les *journal article*, *magazine article* et *newspaper article* sont exportés en TEI-HAL comme des **article**
 
+### Les mots-clefs
+
+Les mots-clefs enregistrés dans Zotero puis exportés en MODS sont conservés par le script MODS2TEI-HAL.xqm.
+
+Il est cependant possible dans ajouter d'autres, génériques, dans le document auteurs.xml.
+
+### Les résumés
+
+Le champs *abastract* de Zotero est lui aussi conservé.
+
+### Les identifiants (isbn, etc.)
+
+En revanche, les identifiants (isbn, issn, etc.) ne sont pas conservés.
+
 ## Remarques complémentaires
 
 ### La langue
