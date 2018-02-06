@@ -44,7 +44,7 @@ Si tout s'est déroulé correctement, vous disposer alors d'un document TEI dans
 
 Le nom de ce document est la concaténation du nom de l'auteur et de ".xml", par exemple: *Dupont.xml*.
 
-**/!\ Attention**: pour être sûr que le script fonctionne, assurez-vous que le prénom et le nom de l'auteur sont présentés exactement pareils:
+**/!\ Attention**: pour être sûr que le script fonctionne, assurez-vous que le prénom et le nom de l'auteur sont présentés exactement de la même façon:
 
 * dans la base "auteurs"
 * dans le script MODS2TEI-HAL.xqm
