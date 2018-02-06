@@ -10,7 +10,7 @@ Une base de données XML "auteurs" de ce type est indispensable au fonctionnemen
 ## Prérequis
 
 * Disposer du logiciel de bases de données XML [Basex](http://basex.org/)
-* Créer, dans BaseX, une base de données XML "auteurs" avec au minimum, pour chaque auteur: 
+* Créer, dans BaseX, une base de données XML "auteurs" avec, au minimum, pour chaque auteur: 
     * le nom, 
     * le prénom, 
     * l'adresse mail, 
@@ -49,4 +49,21 @@ Le nom de ce document est la concaténation du nom de l'auteur et de ".xml", par
 * dans la base "auteurs"
 * dans le script MODS2TEI-HAL.xqm
 * et dans les références Zotero exportées en MODS.
+
+## Remarques complémentaires
+
+### La langue
+
+La langue de rédaction d'un document est un élément difficile à repérer.
+
+Il est donc vivement conseillé de renseigner dans Zotero le champs *Langue* pour chaque notice avec un code langue adéquat (par exemple, **fr** pour **français**, **en** pour **anglais**, etc.)
+
+### Les dates
+
+Les formats de date tolérés par Zotero sont beaucoup plus souples que ceux réclamés par HAL.
+
+Il faut donc s'assurer que les dates dans Zotero sont renseignées sous le format: YYYY-MM-DD, ou YYYY-MM, ou YYYY.
+
+Si ce n'est pas le cas, le script fonctionnera, mais un import par lot risque de ne pas fonctionner pour les références dont le format n'est pas adéquat.
+
 
