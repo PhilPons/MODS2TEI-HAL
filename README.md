@@ -22,7 +22,7 @@ Une base de données XML "auteurs" de ce type est indispensable au fonctionnemen
 
 ## Procédure
 
-1. Compléter le document "auteurs.xml" et créer une base "auteurs" dans BaseX 
+1. Compléter le document "auteurs.xml" et créer une base "auteurs" dans BaseX avec ce fichier 
 2. Créer une base de données dans BaseX avec une bibliographie [Zotero](https://www.zotero.org/) d'un auteur au format MODS. 
 Pour cela, dans ZOTERO:
 
@@ -49,6 +49,29 @@ Le nom de ce document est la concaténation du nom de l'auteur et de ".xml", par
 * dans la base "auteurs"
 * dans le script MODS2TEI-HAL.xqm
 * et dans les références Zotero exportées en MODS.
+
+## Éléments pris en charge par le script 
+
+### Les types bibliographiques de Zotero
+
+Ce script est capable de gérer les références Zotero exportées en MODS de type:
+
+* Book
+* Book Section
+* Conference Paper
+* Dictionary Entry
+* Encyclopedia Article
+* Journal Article
+* Magazine Article
+* et Newspaper Article
+
+La typologie de documents dans Zotero est très variée, beaucoup plus que la typologie proposée pour HAL.
+
+Ainsi:
+
+* les *book* sont exportés en TEI-HAL comme des **ouvrage**, 
+* les *booksection*, *conference paper*, *dictionary entry* et *encyclopedia article* sont exportés en TEI-HAL comme des **chapitre d'ouvrage**
+* et les *journal article*, *magazine article* et *newspaper article* sont exportés en TEI-HAL comme des **article**
 
 ## Remarques complémentaires
 
