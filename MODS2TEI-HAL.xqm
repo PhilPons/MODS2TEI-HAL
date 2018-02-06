@@ -16,15 +16,15 @@ declare namespace m = 'http://www.loc.gov/mods/v3';
 (: 
 : Renseigner les informations sur l'auteur des références et sur la base de données utilisées. OBLIGATOIRE
 :)
-declare variable $forename := "Anne-Lise"; (: donner le prénom de l'auteur du document :)
-declare variable $surname := "Mithout"; (: donner le nom de famille de l'auteur du document :)
-declare variable $bdd := "mithout"; (: donner le nom de la base de donnée :)
+declare variable $forename := ""; (: donner le prénom de l'auteur du document :)
+declare variable $surname := ""; (: donner le nom de famille de l'auteur du document :)
+declare variable $bdd := ""; (: donner le nom de la base de donnée :)
 
 (:  
 : Renseigner les informations sur le déposant des références. OBLIGATOIRE
 :)
-declare variable $forename_depositor := "Anne-Lise"; (: donner le prénom du déposant du document sur HAL :)
-declare variable $surname_depositor := "Mithout"; (: donner le nom du déposant du document sur HAL :)
+declare variable $forename_depositor := ""; (: donner le prénom du déposant du document sur HAL :)
+declare variable $surname_depositor := ""; (: donner le nom du déposant du document sur HAL :)
 
 (:
 : @param élément(s) titleInfo

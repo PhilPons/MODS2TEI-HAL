@@ -22,4 +22,7 @@ Une base de données XML "auteurs" de ce type est indispensable au fonctionnemen
 
 ## Procédure
 
+* Compléter la base "auteurs" 
+* Créer une base de données dans BaseX avec une bibliographie [Zotero](https://www.zotero.org/) d'un auteur au format MODS.
+* Ouvrir le script MODS2TEI-HAL.xqm dans BaseX
 * 
