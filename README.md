@@ -8,3 +8,18 @@ Une base de données XML "auteurs" de ce type est indispensable au fonctionnemen
 
 
 ## Prérequis
+
+* Disposer du logiciel de bases de données XML [Basex](http://basex.org/)
+* Créer, dans BaseX, une base de données XML "auteurs" avec au minimum, pour chaque auteur: 
+    * le nom, 
+    * le prénom, 
+    * l'adresse mail, 
+    * l'identifiant HAL (halauthorid), 
+    * l'identifiant de l'affiliation de l'auteur (son institution de rattachement)
+    * et au moins un domaine HAL concerné (par exemple "Sciences de l'Homme et Société")
+   
+(en suivant l'exemple donné dans auteurs.xml pour renseigner ces informations)
+
+## Procédure
+
+* 
