@@ -101,6 +101,6 @@ Les formats de date tolérés par Zotero sont beaucoup plus souples que ceux ré
 
 Il faut donc s'assurer que les dates dans Zotero sont renseignées sous le format: YYYY-MM-DD, ou YYYY-MM, ou YYYY.
 
-Si ce n'est pas le cas, le script fonctionnera, mais un import par lot risque de ne pas fonctionner pour les références dont le format n'est pas adéquat.
+Si ce n'est pas le cas, le script fonctionnera, mais un import par lot risque de ne pas fonctionner pour les références dont le format date n'est pas adéquat.
 
 
