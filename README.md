@@ -22,7 +22,7 @@ Une base de données XML "auteurs" de ce type est indispensable au fonctionnemen
 
 ## Procédure
 
-1. Compléter la base "auteurs" 
+1. Compléter le document "auteurs.xml" et créer une base "auteurs" dans BaseX 
 2. Créer une base de données dans BaseX avec une bibliographie [Zotero](https://www.zotero.org/) d'un auteur au format MODS. 
 Pour cela, dans ZOTERO:
 
