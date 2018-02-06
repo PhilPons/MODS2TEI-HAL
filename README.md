@@ -81,7 +81,7 @@ Il est cependant possible dans ajouter d'autres, génériques, dans le document 
 
 ### Les résumés
 
-Le champs *abastract* de Zotero est lui aussi conservé.
+Le champs *abstract* de Zotero est lui aussi conservé.
 
 ### Les identifiants (isbn, etc.)
 
